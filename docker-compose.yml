@@ -53,7 +53,7 @@ services:
       <<: *common-variables
       NODE_PATH: src
     ports:
-      - 3000:3000
+      - 8090:3000
     volumes:
       - ./client/src:/app/src
     links:
